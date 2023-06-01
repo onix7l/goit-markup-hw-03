@@ -14,6 +14,23 @@ body {
   background-color: var(--main-color-text);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 .link {
   text-decoration: none;
 }
@@ -22,9 +39,24 @@ body {
   list-style: none;
 }
 
+.container {
+  width: 100%;
+  max-width: 1158px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-container {
+  display: flex;
 }
 .header-navigation {
+  display: flex;
+  /* flex-grow: 1; */
 }
 
 .header-logo {
@@ -35,12 +67,16 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--header-logo-blue);
+  margin-left: 156px;
+  margin-right: 76px;
 }
 
 .header-logo-span {
   color: var(--additional-color-text);
 }
 .header-menu {
+  display: flex;
+  gap: 40px;
 }
 .header-menu-item {
   font-weight: 500;
@@ -64,6 +100,12 @@ body {
   font-style: normal;
   color: var(--link-unactive);
 }
+
+.header-address-list {
+  display: flex;
+  gap: 40px;
+  margin-right: 156px;
+}
 .header-contacts {
 }
 .header-contacts-item {
@@ -81,9 +123,15 @@ body {
 }
 
 .hero {
-  background-color: var(--additional-color-text);
 }
 
+.hero-container {
+  background-color: var(--additional-color-text);
+  padding: 188px 472px 292px 472px;
+  /* text-align: center;
+  padding-top: 188px;
+  padding-bottom: 292px; */
+}
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -91,6 +139,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-color-text);
+  max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -102,6 +152,9 @@ body {
   color: var(--main-color-text);
   background-color: var(--header-logo-blue);
   cursor: pointer;
+  padding: 16px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -110,10 +163,16 @@ body {
   cursor: pointer;
 }
 .benefits {
+  padding-top: 120px;
 }
 .benefits-list {
+  display: flex;
+  padding-left: 156px;
+  padding-right: 156px;
+  gap: 24px;
 }
 .benefits-item {
+  width: calc((100% - 24px * 3) / 4);
 }
 .benefits-title {
   font-weight: 500;
@@ -121,6 +180,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--additional-color-text);
+  margin-bottom: 8px;
 }
 .benefits-text {
   font-size: 16px;
