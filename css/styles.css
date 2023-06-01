@@ -95,7 +95,7 @@ img {
 
 .header-menu-link {
   color: var(--additional-color-text);
-  /* padding: 24px 0; */
+  padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -113,6 +113,7 @@ img {
   display: flex;
   gap: 40px;
   margin-right: 156px;
+  padding: 24px 0;
 }
 .header-contacts {
 }
@@ -137,7 +138,7 @@ img {
 .hero-container {
   background-color: var(--additional-color-text);
 
-  /* padding: 188px 472px 292px 472px; */
+  /* padding: 188px 301px 292px 301px; */
   /* text-align: center;
   padding-top: 188px;
   padding-bottom: 292px; */
@@ -165,7 +166,7 @@ img {
   padding: 16px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  display: block;
+
   min-width: 169px;
   height: 56px;
   border: none;
@@ -205,7 +206,7 @@ img {
 }
 
 .doing {
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .doing-title {
   font-weight: 700;
