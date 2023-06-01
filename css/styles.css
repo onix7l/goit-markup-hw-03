@@ -222,18 +222,18 @@ img {
   display: flex;
   gap: 24px;
 }
-.doint-item {
+.doing-item {
   width: calc((100% - 48px) / 3);
 }
 .doing-img {
 }
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-container {
   background-color: var(--background-color-additional);
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-list {
@@ -344,7 +344,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .portfolio-img {
 }
@@ -354,6 +353,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--additional-color-text);
+  margin-bottom: 8px;
 }
 .portolio-text {
   line-height: 1.5;
