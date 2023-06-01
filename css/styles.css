@@ -195,7 +195,7 @@ img {
   cursor: pointer;
 }
 .benefits {
-  padding-top: 120px;
+  padding: 120px 0;
 }
 .benefits-list {
   display: flex;
@@ -222,7 +222,7 @@ img {
 }
 
 .doing {
-  padding: 120px 0;
+  padding-bottom: 120px;
 }
 .doing-title {
   font-weight: 700;
@@ -247,9 +247,8 @@ img {
 }
 
 .team-container {
+  padding: 120px 0;
   background-color: var(--background-color-additional);
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-list {
