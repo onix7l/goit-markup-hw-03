@@ -86,7 +86,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--header-logo-blue);
-  margin-left: 156px;
+
   margin-right: 76px;
 }
 
@@ -125,13 +125,11 @@ img {
 .header-address-list {
   display: flex;
   gap: 40px;
-  margin-right: 156px;
-
-  padding: 24px 0;
 }
 .header-contacts {
 }
 .header-contacts-item {
+  padding: 24px 0;
 }
 .header-contacts-link {
   font-size: 16px;
